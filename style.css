@@ -1,0 +1,122 @@
+html, body {
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    padding: 0
+    
+}
+
+body * {
+    outline: pink dotted;
+}
+
+body{
+    background-image: linear-gradient(90deg, rgb(129, 75, 88),rgb(19, 2, 15));
+}
+
+.container{  
+    /* background-color: red; */
+    height: 1200px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+/* not sure why the top has space */
+.header{
+    height: 90px;
+    background-color: rgb(243, 240, 240);
+    margin-top: 0;
+    padding: 0;
+}
+
+.top{
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.top img {
+    border: 6px solid rgba(255, 255, 255, 0.787);
+    height: 400px;
+    width: 45%;
+}
+
+.second-top-div{
+    background-color: rgb(229, 226, 226);
+    width: 45%;
+    height: 410px;
+}
+
+
+.second-top-div h1 {
+    height: 50px;
+    margin-top: 0;
+    color: #ffffff;
+    background-image: linear-gradient(353deg, rgb(195,187,187),rgb(84,83,83));
+}
+
+.second-top-div a {
+    color: black;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* background-color: violet; */
+    width: 100%;
+}
+
+.cards{
+    width: 400px;
+    background-color: white;
+    height: 780px;
+}
+
+.cards h2{
+    margin-top: 0px;
+    background-image: linear-gradient(353deg, rgb(195,187,187),rgb(84,83,83));
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #ffffff;
+}
+
+.project-img {
+    width: 400px;
+    height: 25%;
+}
+
+.pics{
+    display: inline-block;
+    background-color: aqua;
+    width: 400px;
+}
+
+.pics a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    width: 60px;
+    height: 20px;
+    background-color: rgb(40, 124, 40);
+    margin: 0 auto;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+.tech-pics{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+
+
+.footer{
+    margin-top: 50px;
+    height: 70px;
+    background-color: grey;
+}
+
