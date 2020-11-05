@@ -8,7 +8,7 @@ html, body {
 }
 
 body * {
-    outline: pink dotted;
+    /* outline: pink dotted; */
 }
 
 body{
@@ -17,7 +17,7 @@ body{
 
 .container{  
     /* background-color: red; */
-    height: 1200px;
+    height: 1000px;
     width: 95%;
     margin: 0 auto;
     margin-top: 30px;
@@ -28,7 +28,14 @@ body{
     background-color: rgb(243, 240, 240);
     margin-top: 0;
     padding: 0;
+    display: flex;
+    justify-content: space-between;
 }
+
+ .header h1 {
+    padding: 20px;
+}
+
 
 .top{
     /* background-color: green; */
@@ -71,7 +78,7 @@ body{
 .cards{
     width: 400px;
     background-color: white;
-    height: 780px;
+    height: 600px;
 }
 
 .cards h2{
@@ -90,7 +97,7 @@ body{
 
 .pics{
     display: inline-block;
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 400px;
 }
 
@@ -116,7 +123,17 @@ body{
 
 .footer{
     margin-top: 50px;
-    height: 70px;
-    background-color: grey;
+    height: 100px;
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+    
 }
 
+.footer h3{
+    display: inline-block;
+}
+
+.footer img {
+    width: 20px;
+    height: 20px;
+}
